@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+:root{
+    --bg: gray;
+    --deth:rgb(0,0,0);
+    --born:rgb(243, 235, 235);
+    --switch:rgb(220,187,0);
+    --line:5px;
+}
+
+
+
+#switch{
+    all: unset;
+    border-radius:var(--line);
+    background: var(--switch);
+}
+
+
+body{
+    background: black;
+}
+div{
+    display: flex;
+}
+
+
+
+
+.DethLifes{
+    background: var(--deth);
+}
+.bornLifes{
+    background: var(--born);
+}
+
+
+
+
+
+
+
+
+
